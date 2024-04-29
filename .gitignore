@@ -1,0 +1,17 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.pyc
+
+# Virtual environment folder
+chatbot/
+
+# Jupyter notebook files
+.ipynb_checkpoints/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
+.idea/
