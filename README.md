@@ -16,7 +16,7 @@ This repository contains code for a simple chatbot designed for Air Imports usin
 
 2. Create a virtual environment (optional but recommended):
     ```shell
-    python -m venv venv
+    python -m venv chatbot
     ```
 
 3. Activate the virtual environment:
@@ -36,11 +36,11 @@ This repository contains code for a simple chatbot designed for Air Imports usin
 
 5. Set up AWS credentials:
     - Ensure you have AWS credentials configured with appropriate permissions.
-    - Modify the `AWS_PROFILE` environment variable in `my_chatbot.py` to match your AWS profile name.
+    - Modify the `AWS_PROFILE` environment variable in `chatbot.py` to match your AWS profile name.
 
 6. Run the application:
     ```shell
-    streamlit run my_chatbot.py
+    streamlit run chatbot.py
     ```
 
 ## Usage
