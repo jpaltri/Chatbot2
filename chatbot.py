@@ -36,7 +36,7 @@ def my_chatbot(language, freeform_text, pdf_content):
     # Modifying the prompt to use PDF content as a knowledge base
     prompt = PromptTemplate(
         input_variables=["language", "freeform_text", "pdf_content"],
-        template="You are a chatbot. You have read the following document: {pdf_content}\n\nUser Question in {language}: {freeform_text}\nAnswer:"
+        template="You are a friendly and intelligent chatbot assistant. You have read and will base your responses on the following document: {pdf_content}\n If unsure, say you do not know, do not invent answers. \nUser Question in {language}: {freeform_text}\nAnswer:"
     )
     bedrock_chain = LLMChain(llm=llm, prompt=prompt)
     try:
@@ -46,7 +46,7 @@ def my_chatbot(language, freeform_text, pdf_content):
         st.error(f"Failed to fetch response: {str(e)}")
         return None
 
-st.title("Bedrock Chatbot")
+st.title("Air Imports Chatbot")
 
 # Automatically load a PDF from the file system
 pdf_path = "Notes Cindy.pdf"  # Update this to the path of your PDF
