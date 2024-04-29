@@ -22,11 +22,11 @@ This repository contains code for a simple chatbot designed for Air Imports usin
 3. Activate the virtual environment:
     - On Windows:
         ```shell
-        venv\Scripts\activate
+        chatbot\Scripts\activate
         ```
     - On macOS and Linux:
         ```shell
-        source venv/bin/activate
+        source chatbot/bin/activate
         ```
 
 4. Install dependencies:
