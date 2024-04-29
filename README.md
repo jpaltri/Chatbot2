@@ -1,7 +1,7 @@
 # Air Imports Chatbot for CargoWise
 
 ## Description
-This repository contains code for a simple chatbot designed for Air Imports using CargoWise. It serves to answer questions, provide instructions, and offer support specifically tailored to users operating air imports through CargoWise. The chatbot is particularly useful for new users undergoing training on the software.
+This repository contains code for a simple chatbot using Amazon Bedrock designed for Air Imports using CargoWise. It serves to answer questions, provide instructions, and offer support specifically tailored to users operating air imports through CargoWise. The chatbot is particularly useful for new users undergoing training on the software.
 
 ## Requirements
 - Python 3.x
